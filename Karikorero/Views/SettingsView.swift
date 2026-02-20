@@ -14,6 +14,7 @@ struct SettingsView: View {
 
     var stats: SessionStats?
     @State private var showResetConfirmation = false
+    @State private var tipService = TipService()
 
     var body: some View {
         NavigationStack {
@@ -73,6 +74,44 @@ struct SettingsView: View {
                 }
 
                 Section {
+                    if tipService.hasTipped {
+                        Label("Ngā mihi! Thanks for the support.", systemImage: "heart.fill")
+                            .foregroundStyle(Theme.accent)
+                    }
+
+                    Button {
+                        Task { await tipService.purchase() }
+                    } label: {
+                        HStack {
+                            Label(tipService.hasTipped ? "Tip Again" : "Leave a Tip", systemImage: "heart")
+                            Spacer()
+                            if tipService.isLoading {
+                                ProgressView()
+                            } else {
+                                Text(tipService.product?.displayPrice ?? "$1.99")
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
+                    }
+                    .disabled(tipService.isLoading || tipService.product == nil)
+                    .foregroundStyle(Theme.accent)
+
+                    ShareLink(
+                        item: URL(string: "https://apps.apple.com/us/app/karik%C5%8Drero/id6759440359")!,
+                        subject: Text("Karikorero"),
+                        message: Text("I've been using this app to learn Te Reo Māori vocab — check it out!")
+                    ) {
+                        Label("Share with a Friend", systemImage: "square.and.arrow.up")
+                    }
+                } header: {
+                    Text("Support")
+                } footer: {
+                    if !tipService.hasTipped {
+                        Text("If you've found Karikorero helpful, a small tip goes toward continued development. No pressure at all!")
+                    }
+                }
+
+                Section {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("Māori TTS")
                             .font(Theme.ranade(.body, weight: .medium))
@@ -105,6 +144,9 @@ struct SettingsView: View {
                 Button("Cancel", role: .cancel) {}
             } message: {
                 Text("This will reset your words seen, accuracy, and best streak. This cannot be undone.")
+            }
+            .task {
+                await tipService.loadProduct()
             }
         }
     }

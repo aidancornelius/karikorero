@@ -9,9 +9,10 @@ import UIKit
 
 @main
 struct KarikoreApp: App {
+    @State private var tipService = TipService()
+
     init() {
         #if DEBUG
-        // Print registered font names to find correct name for custom font
         for family in UIFont.familyNames.sorted() where family.lowercased().contains("ranade") {
             print("Font family: \(family)")
             for name in UIFont.fontNames(forFamilyName: family) {
@@ -25,6 +26,7 @@ struct KarikoreApp: App {
         WindowGroup {
             DeckView()
                 .preferredColorScheme(.dark)
+                .task { tipService.listenForUpdates() }
         }
     }
 }
