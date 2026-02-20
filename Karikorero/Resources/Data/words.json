@@ -1,0 +1,2324 @@
+[
+  {
+    "id": "kia-ora",
+    "teReo": "kia ora",
+    "english": ["hello", "hi", "be well"],
+    "distractors": ["goodbye", "sorry", "thank you"],
+    "partOfSpeech": "greeting",
+    "difficulty": 1,
+    "audioFile": "kia-ora.m4a"
+  },
+  {
+    "id": "tena-koe",
+    "teReo": "tēnā koe",
+    "english": ["hello (to one person)", "greetings to you"],
+    "distractors": ["goodbye", "welcome", "good night"],
+    "partOfSpeech": "greeting",
+    "difficulty": 1,
+    "audioFile": "tena-koe.m4a"
+  },
+  {
+    "id": "morena",
+    "teReo": "mōrena",
+    "english": ["good morning", "morning"],
+    "distractors": ["good evening", "good night", "goodbye"],
+    "partOfSpeech": "greeting",
+    "difficulty": 1,
+    "audioFile": "morena.m4a"
+  },
+  {
+    "id": "ka-kite",
+    "teReo": "ka kite",
+    "english": ["see you later", "goodbye"],
+    "distractors": ["hello", "welcome", "thank you"],
+    "partOfSpeech": "greeting",
+    "difficulty": 1,
+    "audioFile": "ka-kite.m4a"
+  },
+  {
+    "id": "haere-ra",
+    "teReo": "haere rā",
+    "english": ["farewell", "goodbye (to the one leaving)"],
+    "distractors": ["welcome", "hello", "good morning"],
+    "partOfSpeech": "greeting",
+    "difficulty": 1,
+    "audioFile": "haere-ra.m4a"
+  },
+  {
+    "id": "kei-te-pehea-koe",
+    "teReo": "kei te pēhea koe",
+    "english": ["how are you"],
+    "distractors": ["where are you", "who are you", "what is that"],
+    "partOfSpeech": "greeting",
+    "difficulty": 1,
+    "audioFile": "kei-te-pehea-koe.m4a"
+  },
+  {
+    "id": "kei-te-pai",
+    "teReo": "kei te pai",
+    "english": ["I am well", "it is good"],
+    "distractors": ["I am sad", "it is bad", "not well"],
+    "partOfSpeech": "greeting",
+    "difficulty": 1,
+    "audioFile": "kei-te-pai.m4a"
+  },
+  {
+    "id": "nau-mai",
+    "teReo": "nau mai",
+    "english": ["welcome", "come here"],
+    "distractors": ["go away", "farewell", "be quiet"],
+    "partOfSpeech": "greeting",
+    "difficulty": 1,
+    "audioFile": "nau-mai.m4a"
+  },
+  {
+    "id": "haere-mai",
+    "teReo": "haere mai",
+    "english": ["welcome", "come here"],
+    "distractors": ["go away", "leave now", "stand up"],
+    "partOfSpeech": "greeting",
+    "difficulty": 1,
+    "audioFile": "haere-mai.m4a"
+  },
+  {
+    "id": "whanau",
+    "teReo": "whānau",
+    "english": ["family", "extended family"],
+    "distractors": ["friend", "village", "tribe"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "whanau.m4a"
+  },
+  {
+    "id": "mama",
+    "teReo": "māmā",
+    "english": ["mother", "mum"],
+    "distractors": ["father", "grandmother", "aunt"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "mama.m4a"
+  },
+  {
+    "id": "papa",
+    "teReo": "pāpā",
+    "english": ["father", "dad"],
+    "distractors": ["mother", "grandfather", "uncle"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "papa.m4a"
+  },
+  {
+    "id": "tamaiti",
+    "teReo": "tamaiti",
+    "english": ["child"],
+    "distractors": ["parent", "elder", "baby"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "tamaiti.m4a"
+  },
+  {
+    "id": "tamariki",
+    "teReo": "tamariki",
+    "english": ["children"],
+    "distractors": ["parents", "elders", "adults"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "tamariki.m4a"
+  },
+  {
+    "id": "tama",
+    "teReo": "tama",
+    "english": ["son", "boy"],
+    "distractors": ["daughter", "girl", "baby"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "tama.m4a"
+  },
+  {
+    "id": "tamahine",
+    "teReo": "tamāhine",
+    "english": ["daughter", "girl"],
+    "distractors": ["son", "boy", "mother"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "tamahine.m4a"
+  },
+  {
+    "id": "tuakana",
+    "teReo": "tuakana",
+    "english": ["older sibling (same gender)", "elder"],
+    "distractors": ["younger sibling", "cousin", "friend"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "tuakana.m4a"
+  },
+  {
+    "id": "kuia",
+    "teReo": "kuia",
+    "english": ["grandmother", "elderly woman"],
+    "distractors": ["grandfather", "aunt", "mother"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "kuia.m4a"
+  },
+  {
+    "id": "koroua",
+    "teReo": "koroua",
+    "english": ["grandfather", "elderly man"],
+    "distractors": ["grandmother", "uncle", "father"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "koroua.m4a"
+  },
+  {
+    "id": "tangata",
+    "teReo": "tangata",
+    "english": ["person", "man", "human"],
+    "distractors": ["animal", "spirit", "place"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "tangata.m4a"
+  },
+  {
+    "id": "wahine",
+    "teReo": "wāhine",
+    "english": ["woman", "women"],
+    "distractors": ["man", "child", "elder"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "wahine.m4a"
+  },
+  {
+    "id": "tahi",
+    "teReo": "tahi",
+    "english": ["one", "1"],
+    "distractors": ["two", "three", "ten"],
+    "partOfSpeech": "number",
+    "difficulty": 1,
+    "audioFile": "tahi.m4a"
+  },
+  {
+    "id": "rua",
+    "teReo": "rua",
+    "english": ["two", "2"],
+    "distractors": ["one", "four", "five"],
+    "partOfSpeech": "number",
+    "difficulty": 1,
+    "audioFile": "rua.m4a"
+  },
+  {
+    "id": "toru",
+    "teReo": "toru",
+    "english": ["three", "3"],
+    "distractors": ["two", "five", "seven"],
+    "partOfSpeech": "number",
+    "difficulty": 1,
+    "audioFile": "toru.m4a"
+  },
+  {
+    "id": "wha",
+    "teReo": "whā",
+    "english": ["four", "4"],
+    "distractors": ["three", "six", "eight"],
+    "partOfSpeech": "number",
+    "difficulty": 1,
+    "audioFile": "wha.m4a"
+  },
+  {
+    "id": "rima",
+    "teReo": "rima",
+    "english": ["five", "5"],
+    "distractors": ["four", "seven", "nine"],
+    "partOfSpeech": "number",
+    "difficulty": 1,
+    "audioFile": "rima.m4a"
+  },
+  {
+    "id": "ono",
+    "teReo": "ono",
+    "english": ["six", "6"],
+    "distractors": ["five", "eight", "three"],
+    "partOfSpeech": "number",
+    "difficulty": 1,
+    "audioFile": "ono.m4a"
+  },
+  {
+    "id": "whitu",
+    "teReo": "whitu",
+    "english": ["seven", "7"],
+    "distractors": ["six", "nine", "four"],
+    "partOfSpeech": "number",
+    "difficulty": 1,
+    "audioFile": "whitu.m4a"
+  },
+  {
+    "id": "waru",
+    "teReo": "waru",
+    "english": ["eight", "8"],
+    "distractors": ["seven", "ten", "five"],
+    "partOfSpeech": "number",
+    "difficulty": 1,
+    "audioFile": "waru.m4a"
+  },
+  {
+    "id": "iwa",
+    "teReo": "iwa",
+    "english": ["nine", "9"],
+    "distractors": ["eight", "six", "ten"],
+    "partOfSpeech": "number",
+    "difficulty": 1,
+    "audioFile": "iwa.m4a"
+  },
+  {
+    "id": "tekau",
+    "teReo": "tekau",
+    "english": ["ten", "10"],
+    "distractors": ["nine", "seven", "one hundred"],
+    "partOfSpeech": "number",
+    "difficulty": 1,
+    "audioFile": "tekau.m4a"
+  },
+  {
+    "id": "whero",
+    "teReo": "whero",
+    "english": ["red"],
+    "distractors": ["blue", "green", "yellow"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "audioFile": "whero.m4a"
+  },
+  {
+    "id": "kakariki",
+    "teReo": "kākāriki",
+    "english": ["green"],
+    "distractors": ["blue", "red", "yellow"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "audioFile": "kakariki.m4a"
+  },
+  {
+    "id": "kikorangi",
+    "teReo": "kikorangi",
+    "english": ["blue"],
+    "distractors": ["green", "purple", "red"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "audioFile": "kikorangi.m4a"
+  },
+  {
+    "id": "kowhai",
+    "teReo": "kōwhai",
+    "english": ["yellow"],
+    "distractors": ["orange", "green", "red"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "audioFile": "kowhai.m4a"
+  },
+  {
+    "id": "mangu",
+    "teReo": "mangu",
+    "english": ["black"],
+    "distractors": ["white", "grey", "brown"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "audioFile": "mangu.m4a"
+  },
+  {
+    "id": "ma",
+    "teReo": "mā",
+    "english": ["white", "clean", "pale"],
+    "distractors": ["black", "dark", "dirty"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "audioFile": "ma.m4a"
+  },
+  {
+    "id": "parauri",
+    "teReo": "parauri",
+    "english": ["brown"],
+    "distractors": ["black", "orange", "grey"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "parauri.m4a"
+  },
+  {
+    "id": "karaka",
+    "teReo": "karaka",
+    "english": ["orange"],
+    "distractors": ["yellow", "red", "brown"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "karaka.m4a"
+  },
+  {
+    "id": "papura",
+    "teReo": "pāpura",
+    "english": ["purple"],
+    "distractors": ["blue", "pink", "red"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "papura.m4a"
+  },
+  {
+    "id": "mahunga",
+    "teReo": "māhunga",
+    "english": ["head"],
+    "distractors": ["hand", "foot", "face"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "mahunga.m4a"
+  },
+  {
+    "id": "kanohi",
+    "teReo": "kanohi",
+    "english": ["face", "eye"],
+    "distractors": ["ear", "mouth", "head"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "kanohi.m4a"
+  },
+  {
+    "id": "taringa",
+    "teReo": "taringa",
+    "english": ["ear"],
+    "distractors": ["eye", "nose", "mouth"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "taringa.m4a"
+  },
+  {
+    "id": "ihu",
+    "teReo": "ihu",
+    "english": ["nose"],
+    "distractors": ["ear", "mouth", "chin"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ihu.m4a"
+  },
+  {
+    "id": "waha",
+    "teReo": "waha",
+    "english": ["mouth"],
+    "distractors": ["nose", "chin", "throat"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "waha.m4a"
+  },
+  {
+    "id": "ringaringa",
+    "teReo": "ringaringa",
+    "english": ["hand", "arm"],
+    "distractors": ["foot", "leg", "finger"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ringaringa.m4a"
+  },
+  {
+    "id": "waewae",
+    "teReo": "waewae",
+    "english": ["foot", "leg"],
+    "distractors": ["hand", "arm", "knee"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "waewae.m4a"
+  },
+  {
+    "id": "tinana",
+    "teReo": "tinana",
+    "english": ["body"],
+    "distractors": ["spirit", "mind", "heart"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "tinana.m4a"
+  },
+  {
+    "id": "manawa",
+    "teReo": "manawa",
+    "english": ["heart", "breath"],
+    "distractors": ["stomach", "head", "spirit"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "manawa.m4a"
+  },
+  {
+    "id": "puku",
+    "teReo": "puku",
+    "english": ["stomach", "belly"],
+    "distractors": ["chest", "back", "heart"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "puku.m4a"
+  },
+  {
+    "id": "moana",
+    "teReo": "moana",
+    "english": ["sea", "ocean", "lake"],
+    "distractors": ["river", "mountain", "sky"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "moana.m4a"
+  },
+  {
+    "id": "maunga",
+    "teReo": "maunga",
+    "english": ["mountain"],
+    "distractors": ["hill", "river", "valley"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "maunga.m4a"
+  },
+  {
+    "id": "awa",
+    "teReo": "awa",
+    "english": ["river", "stream"],
+    "distractors": ["lake", "ocean", "waterfall"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "awa.m4a"
+  },
+  {
+    "id": "rakau",
+    "teReo": "rākau",
+    "english": ["tree", "wood", "plant"],
+    "distractors": ["stone", "flower", "grass"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "rakau.m4a"
+  },
+  {
+    "id": "whenua",
+    "teReo": "whenua",
+    "english": ["land", "earth", "country", "placenta"],
+    "distractors": ["sky", "water", "forest"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "whenua.m4a"
+  },
+  {
+    "id": "rangi",
+    "teReo": "rangi",
+    "english": ["sky", "day", "weather"],
+    "distractors": ["earth", "night", "sea"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "rangi.m4a"
+  },
+  {
+    "id": "marama",
+    "teReo": "marama",
+    "english": ["moon", "month"],
+    "distractors": ["sun", "star", "year"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "marama.m4a"
+  },
+  {
+    "id": "ra",
+    "teReo": "rā",
+    "english": ["sun", "day"],
+    "distractors": ["moon", "night", "star"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "ra.m4a"
+  },
+  {
+    "id": "whetu",
+    "teReo": "whētū",
+    "english": ["star"],
+    "distractors": ["moon", "sun", "cloud"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "whetu.m4a"
+  },
+  {
+    "id": "ua",
+    "teReo": "ua",
+    "english": ["rain"],
+    "distractors": ["snow", "wind", "cloud"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ua.m4a"
+  },
+  {
+    "id": "hau",
+    "teReo": "hau",
+    "english": ["wind", "breath", "vitality"],
+    "distractors": ["rain", "cloud", "storm"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "hau.m4a"
+  },
+  {
+    "id": "ngahere",
+    "teReo": "ngahere",
+    "english": ["forest", "bush"],
+    "distractors": ["field", "desert", "garden"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ngahere.m4a"
+  },
+  {
+    "id": "manu",
+    "teReo": "manu",
+    "english": ["bird"],
+    "distractors": ["fish", "insect", "dog"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "manu.m4a"
+  },
+  {
+    "id": "kuri",
+    "teReo": "kurī",
+    "english": ["dog"],
+    "distractors": ["cat", "bird", "horse"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "kuri.m4a"
+  },
+  {
+    "id": "ika",
+    "teReo": "ika",
+    "english": ["fish"],
+    "distractors": ["bird", "shellfish", "whale"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "ika.m4a"
+  },
+  {
+    "id": "kai",
+    "teReo": "kai",
+    "english": ["food", "eat", "meal"],
+    "distractors": ["drink", "cook", "water"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "kai.m4a"
+  },
+  {
+    "id": "wai",
+    "teReo": "wai",
+    "english": ["water"],
+    "distractors": ["food", "milk", "juice"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "wai.m4a"
+  },
+  {
+    "id": "kumara",
+    "teReo": "kūmara",
+    "english": ["sweet potato"],
+    "distractors": ["potato", "pumpkin", "carrot"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "kumara.m4a"
+  },
+  {
+    "id": "miraka",
+    "teReo": "miraka",
+    "english": ["milk"],
+    "distractors": ["water", "juice", "cream"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "miraka.m4a"
+  },
+  {
+    "id": "paraoa",
+    "teReo": "parāoa",
+    "english": ["bread", "flour"],
+    "distractors": ["butter", "cake", "sugar"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "paraoa.m4a"
+  },
+  {
+    "id": "huarakau",
+    "teReo": "huarākau",
+    "english": ["fruit"],
+    "distractors": ["vegetable", "meat", "grain"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "huarakau.m4a"
+  },
+  {
+    "id": "ti",
+    "teReo": "tī",
+    "english": ["tea"],
+    "distractors": ["coffee", "juice", "soup"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ti.m4a"
+  },
+  {
+    "id": "haere",
+    "teReo": "haere",
+    "english": ["go", "walk", "travel"],
+    "distractors": ["stop", "stay", "sit"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "audioFile": "haere.m4a"
+  },
+  {
+    "id": "korero",
+    "teReo": "kōrero",
+    "english": ["speak", "talk", "story", "conversation"],
+    "distractors": ["listen", "whisper", "shout"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "audioFile": "korero.m4a"
+  },
+  {
+    "id": "moe",
+    "teReo": "moe",
+    "english": ["sleep"],
+    "distractors": ["wake", "dream", "rest"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "audioFile": "moe.m4a"
+  },
+  {
+    "id": "whakarongo",
+    "teReo": "whakarongo",
+    "english": ["listen"],
+    "distractors": ["speak", "look", "sing"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "whakarongo.m4a"
+  },
+  {
+    "id": "titiro",
+    "teReo": "titiro",
+    "english": ["look", "watch", "observe"],
+    "distractors": ["listen", "touch", "smell"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "titiro.m4a"
+  },
+  {
+    "id": "tu",
+    "teReo": "tū",
+    "english": ["stand"],
+    "distractors": ["sit", "lie down", "kneel"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "audioFile": "tu.m4a"
+  },
+  {
+    "id": "noho",
+    "teReo": "noho",
+    "english": ["sit", "stay", "live", "dwell"],
+    "distractors": ["stand", "leave", "run"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "audioFile": "noho.m4a"
+  },
+  {
+    "id": "oma",
+    "teReo": "oma",
+    "english": ["run"],
+    "distractors": ["walk", "crawl", "jump"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "oma.m4a"
+  },
+  {
+    "id": "panui",
+    "teReo": "pānui",
+    "english": ["read", "announce", "notice"],
+    "distractors": ["write", "draw", "sing"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "panui.m4a"
+  },
+  {
+    "id": "tuhi",
+    "teReo": "tuhi",
+    "english": ["write", "draw", "paint"],
+    "distractors": ["read", "erase", "tear"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "tuhi.m4a"
+  },
+  {
+    "id": "waiata",
+    "teReo": "waiata",
+    "english": ["sing", "song"],
+    "distractors": ["dance", "shout", "cry"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "audioFile": "waiata.m4a"
+  },
+  {
+    "id": "kanikani",
+    "teReo": "kanikani",
+    "english": ["dance"],
+    "distractors": ["sing", "play", "jump"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "kanikani.m4a"
+  },
+  {
+    "id": "ako",
+    "teReo": "ako",
+    "english": ["learn", "teach", "study"],
+    "distractors": ["forget", "ignore", "read"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "audioFile": "ako.m4a"
+  },
+  {
+    "id": "mohio",
+    "teReo": "mōhio",
+    "english": ["know", "understand"],
+    "distractors": ["forget", "guess", "wonder"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "mohio.m4a"
+  },
+  {
+    "id": "mahi",
+    "teReo": "mahi",
+    "english": ["work", "job", "activity"],
+    "distractors": ["play", "rest", "hobby"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "audioFile": "mahi.m4a"
+  },
+  {
+    "id": "hopu",
+    "teReo": "hopu",
+    "english": ["catch", "grab"],
+    "distractors": ["throw", "drop", "push"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "hopu.m4a"
+  },
+  {
+    "id": "hoki",
+    "teReo": "hoki",
+    "english": ["return", "go back", "also"],
+    "distractors": ["leave", "arrive", "continue"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "hoki.m4a"
+  },
+  {
+    "id": "tuku",
+    "teReo": "tuku",
+    "english": ["release", "send", "let go"],
+    "distractors": ["hold", "take", "catch"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "audioFile": "tuku.m4a"
+  },
+  {
+    "id": "karanga",
+    "teReo": "karanga",
+    "english": ["call", "ceremonial call of welcome"],
+    "distractors": ["whisper", "answer", "wave"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "audioFile": "karanga.m4a"
+  },
+  {
+    "id": "nui",
+    "teReo": "nui",
+    "english": ["big", "large", "many", "important"],
+    "distractors": ["small", "few", "narrow"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "audioFile": "nui.m4a"
+  },
+  {
+    "id": "iti",
+    "teReo": "iti",
+    "english": ["small", "little"],
+    "distractors": ["big", "tall", "wide"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "audioFile": "iti.m4a"
+  },
+  {
+    "id": "pai",
+    "teReo": "pai",
+    "english": ["good", "fine", "nice"],
+    "distractors": ["bad", "ugly", "wrong"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "audioFile": "pai.m4a"
+  },
+  {
+    "id": "kino",
+    "teReo": "kino",
+    "english": ["bad", "evil", "ugly"],
+    "distractors": ["good", "beautiful", "kind"],
+    "partOfSpeech": "adjective",
+    "difficulty": 1,
+    "audioFile": "kino.m4a"
+  },
+  {
+    "id": "ataahua",
+    "teReo": "ātaahua",
+    "english": ["beautiful", "lovely"],
+    "distractors": ["ugly", "plain", "dull"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "ataahua.m4a"
+  },
+  {
+    "id": "roa",
+    "teReo": "roa",
+    "english": ["long", "tall"],
+    "distractors": ["short", "wide", "thin"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "roa.m4a"
+  },
+  {
+    "id": "poto",
+    "teReo": "poto",
+    "english": ["short", "brief"],
+    "distractors": ["long", "tall", "wide"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "poto.m4a"
+  },
+  {
+    "id": "tere",
+    "teReo": "tere",
+    "english": ["fast", "quick", "swift"],
+    "distractors": ["slow", "steady", "still"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "tere.m4a"
+  },
+  {
+    "id": "pouri",
+    "teReo": "pōuri",
+    "english": ["sad", "dark", "gloomy"],
+    "distractors": ["happy", "bright", "cheerful"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "pouri.m4a"
+  },
+  {
+    "id": "hari",
+    "teReo": "hari",
+    "english": ["happy", "joyful", "glad"],
+    "distractors": ["sad", "angry", "tired"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "hari.m4a"
+  },
+  {
+    "id": "wera",
+    "teReo": "wera",
+    "english": ["hot", "burnt"],
+    "distractors": ["cold", "warm", "cool"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "wera.m4a"
+  },
+  {
+    "id": "makariri",
+    "teReo": "makariri",
+    "english": ["cold"],
+    "distractors": ["hot", "warm", "cool"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "makariri.m4a"
+  },
+  {
+    "id": "hou",
+    "teReo": "hou",
+    "english": ["new"],
+    "distractors": ["old", "broken", "used"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "hou.m4a"
+  },
+  {
+    "id": "tawhito",
+    "teReo": "tawhito",
+    "english": ["old", "ancient"],
+    "distractors": ["new", "young", "modern"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "audioFile": "tawhito.m4a"
+  },
+  {
+    "id": "kaha",
+    "teReo": "kaha",
+    "english": ["strong", "powerful", "able"],
+    "distractors": ["weak", "tired", "soft"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "kaha.m4a"
+  },
+  {
+    "id": "tika",
+    "teReo": "tika",
+    "english": ["correct", "right", "just", "fair"],
+    "distractors": ["wrong", "crooked", "unfair"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "tika.m4a"
+  },
+  {
+    "id": "pono",
+    "teReo": "pono",
+    "english": ["true", "genuine", "honest"],
+    "distractors": ["false", "fake", "dishonest"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "pono.m4a"
+  },
+  {
+    "id": "po",
+    "teReo": "pō",
+    "english": ["night"],
+    "distractors": ["day", "morning", "afternoon"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "po.m4a"
+  },
+  {
+    "id": "ata",
+    "teReo": "ata",
+    "english": ["morning", "dawn"],
+    "distractors": ["evening", "night", "afternoon"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "ata.m4a"
+  },
+  {
+    "id": "ahiahi",
+    "teReo": "ahiahi",
+    "english": ["afternoon", "evening"],
+    "distractors": ["morning", "midnight", "dawn"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ahiahi.m4a"
+  },
+  {
+    "id": "apopo",
+    "teReo": "āpōpō",
+    "english": ["tomorrow"],
+    "distractors": ["yesterday", "today", "next week"],
+    "partOfSpeech": "adverb",
+    "difficulty": 2,
+    "audioFile": "apopo.m4a"
+  },
+  {
+    "id": "inanahi",
+    "teReo": "inanahi",
+    "english": ["yesterday"],
+    "distractors": ["tomorrow", "today", "last week"],
+    "partOfSpeech": "adverb",
+    "difficulty": 2,
+    "audioFile": "inanahi.m4a"
+  },
+  {
+    "id": "inaianei",
+    "teReo": "ināianei",
+    "english": ["now", "today", "presently"],
+    "distractors": ["later", "yesterday", "never"],
+    "partOfSpeech": "adverb",
+    "difficulty": 2,
+    "audioFile": "inaianei.m4a"
+  },
+  {
+    "id": "konei",
+    "teReo": "konei",
+    "english": ["here"],
+    "distractors": ["there", "everywhere", "nowhere"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 2,
+    "audioFile": "konei.m4a"
+  },
+  {
+    "id": "whare",
+    "teReo": "whare",
+    "english": ["house", "building"],
+    "distractors": ["garden", "fence", "road"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "whare.m4a"
+  },
+  {
+    "id": "kura",
+    "teReo": "kura",
+    "english": ["school"],
+    "distractors": ["church", "hospital", "shop"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "kura.m4a"
+  },
+  {
+    "id": "aroha",
+    "teReo": "aroha",
+    "english": ["love", "compassion", "empathy", "affection"],
+    "distractors": ["anger", "hate", "fear"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "aroha.m4a"
+  },
+  {
+    "id": "mana",
+    "teReo": "mana",
+    "english": ["prestige", "authority", "power", "status"],
+    "distractors": ["weakness", "shame", "poverty"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "mana.m4a"
+  },
+  {
+    "id": "wairua",
+    "teReo": "wairua",
+    "english": ["spirit", "soul"],
+    "distractors": ["body", "mind", "bone"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "wairua.m4a"
+  },
+  {
+    "id": "mauri",
+    "teReo": "mauri",
+    "english": ["life force", "life essence", "vitality"],
+    "distractors": ["death", "weakness", "illness"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "mauri.m4a"
+  },
+  {
+    "id": "tapu",
+    "teReo": "tapu",
+    "english": ["sacred", "holy", "restricted"],
+    "distractors": ["common", "ordinary", "free"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "tapu.m4a"
+  },
+  {
+    "id": "noa",
+    "teReo": "noa",
+    "english": ["free from tapu", "ordinary", "unrestricted"],
+    "distractors": ["sacred", "forbidden", "special"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "audioFile": "noa.m4a"
+  },
+  {
+    "id": "manaakitanga",
+    "teReo": "manaakitanga",
+    "english": ["hospitality", "kindness", "generosity", "care"],
+    "distractors": ["cruelty", "selfishness", "greed"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "manaakitanga.m4a"
+  },
+  {
+    "id": "kaitiakitanga",
+    "teReo": "kaitiakitanga",
+    "english": ["guardianship", "stewardship", "environmental care"],
+    "distractors": ["destruction", "neglect", "ownership"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "kaitiakitanga.m4a"
+  },
+  {
+    "id": "whakapapa",
+    "teReo": "whakapapa",
+    "english": ["genealogy", "lineage", "ancestry"],
+    "distractors": ["history", "geography", "calendar"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "whakapapa.m4a"
+  },
+  {
+    "id": "iwi",
+    "teReo": "iwi",
+    "english": ["tribe", "nation", "people", "bone"],
+    "distractors": ["village", "family", "friend"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "iwi.m4a"
+  },
+  {
+    "id": "hapu",
+    "teReo": "hapū",
+    "english": ["sub-tribe", "clan", "pregnant"],
+    "distractors": ["tribe", "village", "family"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "hapu.m4a"
+  },
+  {
+    "id": "marae",
+    "teReo": "marae",
+    "english": ["meeting grounds", "communal gathering place"],
+    "distractors": ["church", "school", "market"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "marae.m4a"
+  },
+  {
+    "id": "waka",
+    "teReo": "waka",
+    "english": ["canoe", "vehicle", "vessel"],
+    "distractors": ["bridge", "road", "paddle"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "waka.m4a"
+  },
+  {
+    "id": "haka",
+    "teReo": "haka",
+    "english": ["ceremonial dance", "war dance", "posture dance"],
+    "distractors": ["song", "prayer", "feast"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "haka.m4a"
+  },
+  {
+    "id": "hui",
+    "teReo": "hui",
+    "english": ["meeting", "gathering", "assembly"],
+    "distractors": ["party", "feast", "ceremony"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "hui.m4a"
+  },
+  {
+    "id": "tikanga",
+    "teReo": "tikanga",
+    "english": ["custom", "protocol", "correct procedure"],
+    "distractors": ["rule", "law", "punishment"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "tikanga.m4a"
+  },
+  {
+    "id": "kotahitanga",
+    "teReo": "kotahitanga",
+    "english": ["unity", "togetherness", "solidarity"],
+    "distractors": ["division", "loneliness", "conflict"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "kotahitanga.m4a"
+  },
+  {
+    "id": "utu",
+    "teReo": "utu",
+    "english": ["reciprocity", "cost", "price", "revenge"],
+    "distractors": ["gift", "charity", "forgiveness"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "utu.m4a"
+  },
+  {
+    "id": "ae",
+    "teReo": "āe",
+    "english": ["yes"],
+    "distractors": ["no", "maybe", "never"],
+    "partOfSpeech": "particle",
+    "difficulty": 1,
+    "audioFile": "ae.m4a"
+  },
+  {
+    "id": "kao",
+    "teReo": "kāo",
+    "english": ["no"],
+    "distractors": ["yes", "maybe", "always"],
+    "partOfSpeech": "particle",
+    "difficulty": 1,
+    "audioFile": "kao.m4a"
+  },
+  {
+    "id": "au",
+    "teReo": "au",
+    "english": ["I", "me"],
+    "distractors": ["you", "they", "we"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 1,
+    "audioFile": "au.m4a"
+  },
+  {
+    "id": "koe",
+    "teReo": "koe",
+    "english": ["you (singular)"],
+    "distractors": ["I", "they", "we"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 1,
+    "audioFile": "koe.m4a"
+  },
+  {
+    "id": "ia",
+    "teReo": "ia",
+    "english": ["he", "she", "it"],
+    "distractors": ["you", "we", "they"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 1,
+    "audioFile": "ia.m4a"
+  },
+  {
+    "id": "matou",
+    "teReo": "mātou",
+    "english": ["we (exclusive, three or more)"],
+    "distractors": ["you all", "they", "us (inclusive)"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 2,
+    "audioFile": "matou.m4a"
+  },
+  {
+    "id": "tatou",
+    "teReo": "tātou",
+    "english": ["we (inclusive, three or more)"],
+    "distractors": ["you all", "they", "us (exclusive)"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 2,
+    "audioFile": "tatou.m4a"
+  },
+  {
+    "id": "ratou",
+    "teReo": "rātou",
+    "english": ["they", "them (three or more)"],
+    "distractors": ["we", "you all", "he"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 2,
+    "audioFile": "ratou.m4a"
+  },
+  {
+    "id": "engari",
+    "teReo": "engari",
+    "english": ["but", "however"],
+    "distractors": ["and", "also", "because"],
+    "partOfSpeech": "conjunction",
+    "difficulty": 2,
+    "audioFile": "engari.m4a"
+  },
+  {
+    "id": "ahi",
+    "teReo": "ahi",
+    "english": ["fire"],
+    "distractors": ["water", "smoke", "light"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ahi.m4a"
+  },
+  {
+    "id": "aroha-mai",
+    "teReo": "aroha mai",
+    "english": ["sorry", "I apologise", "forgive me"],
+    "distractors": ["thank you", "please", "excuse me"],
+    "partOfSpeech": "greeting",
+    "difficulty": 2,
+    "audioFile": "aroha-mai.m4a"
+  },
+  {
+    "id": "ka-pai",
+    "teReo": "ka pai",
+    "english": ["well done", "good job", "great"],
+    "distractors": ["try again", "not good", "be careful"],
+    "partOfSpeech": "greeting",
+    "difficulty": 1,
+    "audioFile": "ka-pai.m4a"
+  },
+  {
+    "id": "pepe",
+    "teReo": "pēpē",
+    "english": ["baby", "infant"],
+    "distractors": ["child", "teenager", "toddler"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "pepe.m4a"
+  },
+  {
+    "id": "hoa",
+    "teReo": "hoa",
+    "english": ["friend", "companion"],
+    "distractors": ["enemy", "stranger", "neighbour"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "hoa.m4a"
+  },
+  {
+    "id": "tane",
+    "teReo": "tāne",
+    "english": ["man", "husband", "male"],
+    "distractors": ["woman", "wife", "child"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "tane.m4a"
+  },
+  {
+    "id": "tuna",
+    "teReo": "tuna",
+    "english": ["eel"],
+    "distractors": ["fish", "snake", "worm"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "tuna.m4a"
+  },
+  {
+    "id": "tohora",
+    "teReo": "tohorā",
+    "english": ["whale"],
+    "distractors": ["dolphin", "shark", "seal"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "tohora.m4a"
+  },
+  {
+    "id": "aihe",
+    "teReo": "aihe",
+    "english": ["dolphin"],
+    "distractors": ["whale", "seal", "shark"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "aihe.m4a"
+  },
+  {
+    "id": "mango",
+    "teReo": "mangō",
+    "english": ["shark"],
+    "distractors": ["whale", "dolphin", "stingray"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "mango.m4a"
+  },
+  {
+    "id": "kekeno",
+    "teReo": "kekeno",
+    "english": ["seal", "fur seal"],
+    "distractors": ["whale", "otter", "penguin"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "kekeno.m4a"
+  },
+  {
+    "id": "weta",
+    "teReo": "wētā",
+    "english": ["weta (large insect)"],
+    "distractors": ["spider", "beetle", "cricket"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "weta.m4a"
+  },
+  {
+    "id": "ngeru",
+    "teReo": "ngeru",
+    "english": ["cat"],
+    "distractors": ["dog", "rabbit", "rat"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ngeru.m4a"
+  },
+  {
+    "id": "hoiho",
+    "teReo": "hōiho",
+    "english": ["horse"],
+    "distractors": ["cow", "sheep", "dog"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "hoiho.m4a"
+  },
+  {
+    "id": "kiwi",
+    "teReo": "kiwi",
+    "english": ["kiwi bird"],
+    "distractors": ["parrot", "penguin", "duck"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "kiwi.m4a"
+  },
+  {
+    "id": "kapua",
+    "teReo": "kapua",
+    "english": ["cloud"],
+    "distractors": ["fog", "rain", "sky"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "kapua.m4a"
+  },
+  {
+    "id": "hukarere",
+    "teReo": "hukarere",
+    "english": ["snow"],
+    "distractors": ["ice", "frost", "hail"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "hukarere.m4a"
+  },
+  {
+    "id": "kohu",
+    "teReo": "kohu",
+    "english": ["fog", "mist"],
+    "distractors": ["cloud", "smoke", "steam"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "kohu.m4a"
+  },
+  {
+    "id": "aniwaniwa",
+    "teReo": "āniwaniwa",
+    "english": ["rainbow"],
+    "distractors": ["lightning", "sunset", "cloud"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "aniwaniwa.m4a"
+  },
+  {
+    "id": "uira",
+    "teReo": "uira",
+    "english": ["lightning"],
+    "distractors": ["thunder", "rainbow", "storm"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "uira.m4a"
+  },
+  {
+    "id": "whatitiri",
+    "teReo": "whatitiri",
+    "english": ["thunder"],
+    "distractors": ["lightning", "earthquake", "wind"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "whatitiri.m4a"
+  },
+  {
+    "id": "putiputi",
+    "teReo": "putiputi",
+    "english": ["flower"],
+    "distractors": ["leaf", "seed", "branch"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "putiputi.m4a"
+  },
+  {
+    "id": "rau",
+    "teReo": "rau",
+    "english": ["leaf", "hundred"],
+    "distractors": ["branch", "root", "bark"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "rau.m4a"
+  },
+  {
+    "id": "harakeke",
+    "teReo": "harakeke",
+    "english": ["flax", "flax plant"],
+    "distractors": ["fern", "bush", "grass"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "harakeke.m4a"
+  },
+  {
+    "id": "ponga",
+    "teReo": "ponga",
+    "english": ["tree fern", "silver fern"],
+    "distractors": ["palm tree", "bush", "vine"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ponga.m4a"
+  },
+  {
+    "id": "one",
+    "teReo": "one",
+    "english": ["sand", "beach"],
+    "distractors": ["mud", "gravel", "rock"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "one.m4a"
+  },
+  {
+    "id": "kohatu",
+    "teReo": "kōhatu",
+    "english": ["stone", "rock"],
+    "distractors": ["sand", "clay", "wood"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "kohatu.m4a"
+  },
+  {
+    "id": "toka",
+    "teReo": "toka",
+    "english": ["rock", "boulder"],
+    "distractors": ["pebble", "cliff", "cave"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "toka.m4a"
+  },
+  {
+    "id": "tepu",
+    "teReo": "tēpu",
+    "english": ["table"],
+    "distractors": ["chair", "desk", "shelf"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "tepu.m4a"
+  },
+  {
+    "id": "turu",
+    "teReo": "tūru",
+    "english": ["chair", "seat"],
+    "distractors": ["table", "bench", "stool"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "turu.m4a"
+  },
+  {
+    "id": "moenga",
+    "teReo": "moenga",
+    "english": ["bed"],
+    "distractors": ["pillow", "blanket", "floor"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "moenga.m4a"
+  },
+  {
+    "id": "tatau",
+    "teReo": "tatau",
+    "english": ["door"],
+    "distractors": ["window", "wall", "gate"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "tatau.m4a"
+  },
+  {
+    "id": "matapihi",
+    "teReo": "matapihi",
+    "english": ["window"],
+    "distractors": ["door", "roof", "wall"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "matapihi.m4a"
+  },
+  {
+    "id": "koha",
+    "teReo": "koha",
+    "english": ["gift", "donation", "offering"],
+    "distractors": ["payment", "tax", "loan"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "koha.m4a"
+  },
+  {
+    "id": "kakahu",
+    "teReo": "kākahu",
+    "english": ["clothing", "garment", "cloak"],
+    "distractors": ["blanket", "towel", "curtain"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "kakahu.m4a"
+  },
+  {
+    "id": "hu",
+    "teReo": "hū",
+    "english": ["shoe", "boot"],
+    "distractors": ["sock", "sandal", "hat"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "hu.m4a"
+  },
+  {
+    "id": "potae",
+    "teReo": "pōtae",
+    "english": ["hat", "cap"],
+    "distractors": ["scarf", "glove", "belt"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "potae.m4a"
+  },
+  {
+    "id": "tarau",
+    "teReo": "tarau",
+    "english": ["trousers", "pants"],
+    "distractors": ["shirt", "skirt", "shorts"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "tarau.m4a"
+  },
+  {
+    "id": "hate",
+    "teReo": "hāte",
+    "english": ["shirt"],
+    "distractors": ["jacket", "trousers", "dress"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "hate.m4a"
+  },
+  {
+    "id": "tukemata",
+    "teReo": "tukemata",
+    "english": ["eyebrow"],
+    "distractors": ["eyelash", "forehead", "cheek"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "tukemata.m4a"
+  },
+  {
+    "id": "tuara",
+    "teReo": "tuarā",
+    "english": ["back", "spine"],
+    "distractors": ["chest", "shoulder", "neck"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "tuara.m4a"
+  },
+  {
+    "id": "turi",
+    "teReo": "turi",
+    "english": ["knee"],
+    "distractors": ["elbow", "ankle", "hip"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "turi.m4a"
+  },
+  {
+    "id": "pokohiwi",
+    "teReo": "pokohiwi",
+    "english": ["shoulder"],
+    "distractors": ["elbow", "neck", "chest"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "pokohiwi.m4a"
+  },
+  {
+    "id": "arero",
+    "teReo": "arero",
+    "english": ["tongue"],
+    "distractors": ["lip", "tooth", "throat"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "arero.m4a"
+  },
+  {
+    "id": "niho",
+    "teReo": "niho",
+    "english": ["tooth", "teeth"],
+    "distractors": ["tongue", "lip", "gum"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "niho.m4a"
+  },
+  {
+    "id": "tunu",
+    "teReo": "tunu",
+    "english": ["cook", "roast", "grill"],
+    "distractors": ["boil", "freeze", "chop"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "tunu.m4a"
+  },
+  {
+    "id": "koropiko",
+    "teReo": "koropiko",
+    "english": ["boil"],
+    "distractors": ["fry", "bake", "steam"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "audioFile": "koropiko.m4a"
+  },
+  {
+    "id": "rere",
+    "teReo": "rere",
+    "english": ["fly", "flow", "run"],
+    "distractors": ["swim", "crawl", "sink"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "rere.m4a"
+  },
+  {
+    "id": "kau",
+    "teReo": "kau",
+    "english": ["swim"],
+    "distractors": ["sink", "float", "dive"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "kau.m4a"
+  },
+  {
+    "id": "peke",
+    "teReo": "peke",
+    "english": ["jump", "leap"],
+    "distractors": ["fall", "slide", "crawl"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "peke.m4a"
+  },
+  {
+    "id": "hinga",
+    "teReo": "hinga",
+    "english": ["fall", "fall down", "be defeated"],
+    "distractors": ["rise", "climb", "jump"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "hinga.m4a"
+  },
+  {
+    "id": "piki",
+    "teReo": "piki",
+    "english": ["climb", "ascend"],
+    "distractors": ["descend", "fall", "slide"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "piki.m4a"
+  },
+  {
+    "id": "heke",
+    "teReo": "heke",
+    "english": ["descend", "go down", "drip"],
+    "distractors": ["climb", "rise", "jump"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "audioFile": "heke.m4a"
+  },
+  {
+    "id": "tangi",
+    "teReo": "tangi",
+    "english": ["cry", "weep", "funeral"],
+    "distractors": ["laugh", "smile", "celebrate"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "tangi.m4a"
+  },
+  {
+    "id": "kata",
+    "teReo": "kata",
+    "english": ["laugh"],
+    "distractors": ["cry", "scream", "cough"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "kata.m4a"
+  },
+  {
+    "id": "mataku",
+    "teReo": "mataku",
+    "english": ["afraid", "scared", "frightened"],
+    "distractors": ["brave", "calm", "excited"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "mataku.m4a"
+  },
+  {
+    "id": "riri",
+    "teReo": "riri",
+    "english": ["angry", "furious"],
+    "distractors": ["calm", "happy", "confused"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "riri.m4a"
+  },
+  {
+    "id": "ngenge",
+    "teReo": "ngenge",
+    "english": ["tired", "weary"],
+    "distractors": ["energetic", "alert", "excited"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "ngenge.m4a"
+  },
+  {
+    "id": "hiakai",
+    "teReo": "hiakai",
+    "english": ["hungry"],
+    "distractors": ["thirsty", "full", "satisfied"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "hiakai.m4a"
+  },
+  {
+    "id": "matewai",
+    "teReo": "matewai",
+    "english": ["thirsty"],
+    "distractors": ["hungry", "tired", "sick"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "matewai.m4a"
+  },
+  {
+    "id": "ora",
+    "teReo": "ora",
+    "english": ["alive", "well", "healthy"],
+    "distractors": ["sick", "dead", "injured"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "ora.m4a"
+  },
+  {
+    "id": "mate",
+    "teReo": "mate",
+    "english": ["sick", "dead", "ill", "unwell"],
+    "distractors": ["healthy", "alive", "strong"],
+    "partOfSpeech": "adjective",
+    "difficulty": 2,
+    "audioFile": "mate.m4a"
+  },
+  {
+    "id": "mamae",
+    "teReo": "mamae",
+    "english": ["pain", "sore", "hurt"],
+    "distractors": ["comfort", "relief", "pleasure"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "mamae.m4a"
+  },
+  {
+    "id": "whakama",
+    "teReo": "whakamā",
+    "english": ["shy", "embarrassed", "ashamed"],
+    "distractors": ["proud", "confident", "bold"],
+    "partOfSpeech": "adjective",
+    "difficulty": 3,
+    "audioFile": "whakama.m4a"
+  },
+  {
+    "id": "tekau-ma-tahi",
+    "teReo": "tekau mā tahi",
+    "english": ["eleven", "11"],
+    "distractors": ["twelve", "thirteen", "twenty"],
+    "partOfSpeech": "number",
+    "difficulty": 2,
+    "audioFile": "tekau-ma-tahi.m4a"
+  },
+  {
+    "id": "tekau-ma-rua",
+    "teReo": "tekau mā rua",
+    "english": ["twelve", "12"],
+    "distractors": ["eleven", "fourteen", "twenty"],
+    "partOfSpeech": "number",
+    "difficulty": 2,
+    "audioFile": "tekau-ma-rua.m4a"
+  },
+  {
+    "id": "tekau-ma-toru",
+    "teReo": "tekau mā toru",
+    "english": ["thirteen", "13"],
+    "distractors": ["fourteen", "fifteen", "eleven"],
+    "partOfSpeech": "number",
+    "difficulty": 2,
+    "audioFile": "tekau-ma-toru.m4a"
+  },
+  {
+    "id": "tekau-ma-wha",
+    "teReo": "tekau mā whā",
+    "english": ["fourteen", "14"],
+    "distractors": ["thirteen", "sixteen", "eighteen"],
+    "partOfSpeech": "number",
+    "difficulty": 2,
+    "audioFile": "tekau-ma-wha.m4a"
+  },
+  {
+    "id": "tekau-ma-rima",
+    "teReo": "tekau mā rima",
+    "english": ["fifteen", "15"],
+    "distractors": ["fourteen", "sixteen", "nineteen"],
+    "partOfSpeech": "number",
+    "difficulty": 2,
+    "audioFile": "tekau-ma-rima.m4a"
+  },
+  {
+    "id": "rua-tekau",
+    "teReo": "rua tekau",
+    "english": ["twenty", "20"],
+    "distractors": ["twelve", "thirty", "fifteen"],
+    "partOfSpeech": "number",
+    "difficulty": 2,
+    "audioFile": "rua-tekau.m4a"
+  },
+  {
+    "id": "kotahi-rau",
+    "teReo": "kotahi rau",
+    "english": ["one hundred", "100"],
+    "distractors": ["one thousand", "fifty", "two hundred"],
+    "partOfSpeech": "number",
+    "difficulty": 2,
+    "audioFile": "kotahi-rau.m4a"
+  },
+  {
+    "id": "kotahi-mano",
+    "teReo": "kotahi mano",
+    "english": ["one thousand", "1000"],
+    "distractors": ["one hundred", "ten thousand", "one million"],
+    "partOfSpeech": "number",
+    "difficulty": 3,
+    "audioFile": "kotahi-mano.m4a"
+  },
+  {
+    "id": "rahina",
+    "teReo": "Rāhina",
+    "english": ["Monday"],
+    "distractors": ["Tuesday", "Wednesday", "Sunday"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "rahina.m4a"
+  },
+  {
+    "id": "ratu",
+    "teReo": "Rātū",
+    "english": ["Tuesday"],
+    "distractors": ["Monday", "Thursday", "Friday"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ratu.m4a"
+  },
+  {
+    "id": "raapa",
+    "teReo": "Rāapa",
+    "english": ["Wednesday"],
+    "distractors": ["Thursday", "Tuesday", "Saturday"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "raapa.m4a"
+  },
+  {
+    "id": "rapare",
+    "teReo": "Rāpare",
+    "english": ["Thursday"],
+    "distractors": ["Wednesday", "Friday", "Monday"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "rapare.m4a"
+  },
+  {
+    "id": "ramere",
+    "teReo": "Rāmere",
+    "english": ["Friday"],
+    "distractors": ["Thursday", "Saturday", "Tuesday"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ramere.m4a"
+  },
+  {
+    "id": "rahoroi",
+    "teReo": "Rāhoroi",
+    "english": ["Saturday"],
+    "distractors": ["Sunday", "Friday", "Wednesday"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "rahoroi.m4a"
+  },
+  {
+    "id": "ratapu",
+    "teReo": "Rātapu",
+    "english": ["Sunday"],
+    "distractors": ["Saturday", "Monday", "Thursday"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ratapu.m4a"
+  },
+  {
+    "id": "koanga",
+    "teReo": "kōanga",
+    "english": ["spring (season)"],
+    "distractors": ["summer", "autumn", "winter"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "koanga.m4a"
+  },
+  {
+    "id": "raumati",
+    "teReo": "raumati",
+    "english": ["summer"],
+    "distractors": ["winter", "autumn", "spring (season)"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "raumati.m4a"
+  },
+  {
+    "id": "ngahuru",
+    "teReo": "ngahuru",
+    "english": ["autumn"],
+    "distractors": ["summer", "winter", "spring (season)"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "ngahuru.m4a"
+  },
+  {
+    "id": "hotoke",
+    "teReo": "hōtoke",
+    "english": ["winter"],
+    "distractors": ["summer", "autumn", "spring (season)"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "hotoke.m4a"
+  },
+  {
+    "id": "kaiako",
+    "teReo": "kaiako",
+    "english": ["teacher"],
+    "distractors": ["student", "principal", "parent"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "kaiako.m4a"
+  },
+  {
+    "id": "akonga",
+    "teReo": "ākonga",
+    "english": ["student", "learner", "pupil"],
+    "distractors": ["teacher", "principal", "caretaker"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "akonga.m4a"
+  },
+  {
+    "id": "pukapuka",
+    "teReo": "pukapuka",
+    "english": ["book"],
+    "distractors": ["pen", "paper", "letter"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "pukapuka.m4a"
+  },
+  {
+    "id": "pene",
+    "teReo": "pene",
+    "english": ["pen", "pencil"],
+    "distractors": ["ruler", "eraser", "paper"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "pene.m4a"
+  },
+  {
+    "id": "akomanga",
+    "teReo": "akomanga",
+    "english": ["classroom"],
+    "distractors": ["playground", "library", "office"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "akomanga.m4a"
+  },
+  {
+    "id": "rererangi",
+    "teReo": "rererangi",
+    "english": ["aeroplane", "airplane"],
+    "distractors": ["helicopter", "boat", "train"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "rererangi.m4a"
+  },
+  {
+    "id": "motoka",
+    "teReo": "motokā",
+    "english": ["car", "motor car"],
+    "distractors": ["bus", "truck", "bicycle"],
+    "partOfSpeech": "noun",
+    "difficulty": 1,
+    "audioFile": "motoka.m4a"
+  },
+  {
+    "id": "pahi",
+    "teReo": "pahi",
+    "english": ["bus"],
+    "distractors": ["car", "train", "truck"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "pahi.m4a"
+  },
+  {
+    "id": "tereina",
+    "teReo": "tereina",
+    "english": ["train"],
+    "distractors": ["bus", "tram", "ferry"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "tereina.m4a"
+  },
+  {
+    "id": "paihikara",
+    "teReo": "paihikara",
+    "english": ["bicycle", "bike"],
+    "distractors": ["scooter", "motorcycle", "car"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "paihikara.m4a"
+  },
+  {
+    "id": "raki",
+    "teReo": "raki",
+    "english": ["north"],
+    "distractors": ["south", "east", "west"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "raki.m4a"
+  },
+  {
+    "id": "tonga",
+    "teReo": "tonga",
+    "english": ["south"],
+    "distractors": ["north", "east", "west"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "tonga.m4a"
+  },
+  {
+    "id": "rawhiti",
+    "teReo": "rāwhiti",
+    "english": ["east"],
+    "distractors": ["west", "north", "south"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "rawhiti.m4a"
+  },
+  {
+    "id": "uru",
+    "teReo": "uru",
+    "english": ["west"],
+    "distractors": ["east", "north", "south"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "uru.m4a"
+  },
+  {
+    "id": "aha",
+    "teReo": "aha",
+    "english": ["what"],
+    "distractors": ["who", "where", "when"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 1,
+    "audioFile": "aha.m4a"
+  },
+  {
+    "id": "wai-question",
+    "teReo": "wai",
+    "english": ["who"],
+    "distractors": ["what", "where", "how"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 1,
+    "audioFile": "wai-question.m4a"
+  },
+  {
+    "id": "hea",
+    "teReo": "hea",
+    "english": ["where"],
+    "distractors": ["when", "what", "who"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 1,
+    "audioFile": "hea.m4a"
+  },
+  {
+    "id": "ahea",
+    "teReo": "āhea",
+    "english": ["when (future)"],
+    "distractors": ["where", "why", "how many"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 2,
+    "audioFile": "ahea.m4a"
+  },
+  {
+    "id": "nahea",
+    "teReo": "nāhea",
+    "english": ["when (past)"],
+    "distractors": ["when (future)", "where", "how"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 3,
+    "audioFile": "nahea.m4a"
+  },
+  {
+    "id": "pehea",
+    "teReo": "pēhea",
+    "english": ["how", "what kind"],
+    "distractors": ["why", "when (past)", "how many"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 2,
+    "audioFile": "pehea.m4a"
+  },
+  {
+    "id": "he-aha-te-mea",
+    "teReo": "he aha te mea",
+    "english": ["why", "what is the reason"],
+    "distractors": ["what is it", "how is it", "who is it"],
+    "partOfSpeech": "particle",
+    "difficulty": 3,
+    "audioFile": "he-aha-te-mea.m4a"
+  },
+  {
+    "id": "e-hia",
+    "teReo": "e hia",
+    "english": ["how many"],
+    "distractors": ["how much", "how often", "how long"],
+    "partOfSpeech": "pronoun",
+    "difficulty": 2,
+    "audioFile": "e-hia.m4a"
+  },
+  {
+    "id": "hiahia",
+    "teReo": "hiahia",
+    "english": ["want", "desire", "wish"],
+    "distractors": ["need", "hate", "refuse"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "hiahia.m4a"
+  },
+  {
+    "id": "whakawhetai",
+    "teReo": "whakawhetai",
+    "english": ["thank", "give thanks"],
+    "distractors": ["complain", "apologise", "praise"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "audioFile": "whakawhetai.m4a"
+  },
+  {
+    "id": "horoi",
+    "teReo": "horoi",
+    "english": ["wash", "clean"],
+    "distractors": ["dry", "dirty", "sweep"],
+    "partOfSpeech": "verb",
+    "difficulty": 2,
+    "audioFile": "horoi.m4a"
+  },
+  {
+    "id": "whangai",
+    "teReo": "whāngai",
+    "english": ["feed", "nourish", "foster"],
+    "distractors": ["starve", "take", "steal"],
+    "partOfSpeech": "verb",
+    "difficulty": 3,
+    "audioFile": "whangai.m4a"
+  },
+  {
+    "id": "inu",
+    "teReo": "inu",
+    "english": ["drink"],
+    "distractors": ["pour", "spill", "sip"],
+    "partOfSpeech": "verb",
+    "difficulty": 1,
+    "audioFile": "inu.m4a"
+  },
+  {
+    "id": "toa",
+    "teReo": "toa",
+    "english": ["shop", "store", "brave warrior"],
+    "distractors": ["market", "warehouse", "factory"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "toa.m4a"
+  },
+  {
+    "id": "hohipera",
+    "teReo": "hōhipera",
+    "english": ["hospital"],
+    "distractors": ["clinic", "pharmacy", "school"],
+    "partOfSpeech": "noun",
+    "difficulty": 2,
+    "audioFile": "hohipera.m4a"
+  },
+  {
+    "id": "wharekarakia",
+    "teReo": "wharekarakia",
+    "english": ["church"],
+    "distractors": ["temple", "mosque", "school"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "wharekarakia.m4a"
+  },
+  {
+    "id": "mahi-kai",
+    "teReo": "mahikai",
+    "english": ["farm", "garden", "cultivate food"],
+    "distractors": ["orchard", "forest", "field"],
+    "partOfSpeech": "noun",
+    "difficulty": 3,
+    "audioFile": "mahi-kai.m4a"
+  }
+]

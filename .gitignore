@@ -1,0 +1,33 @@
+## Xcode
+*.xcodeproj/
+xcuserdata/
+*.xcworkspace/
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Swift Package Manager
+.build/
+Packages/
+Package.resolved
+.swiftpm/
+
+## macOS
+.DS_Store
+*.swp
+*~
+
+## Python
+__pycache__/
+*.pyc
+
+## Generated audio (regenerate with scripts/generate_audio.py)
+Karikorero/Resources/Audio/*.m4a
+scripts/generate_audio.py
