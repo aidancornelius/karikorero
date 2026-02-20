@@ -1,0 +1,60 @@
+name: Karikorero
+options:
+  bundleIdPrefix: nz.ursa
+  deploymentTarget:
+    iOS: "26.1"
+  xcodeVersion: "16.3"
+  createIntermediateGroups: true
+  defaultConfig: Release
+
+settings:
+  base:
+    SWIFT_VERSION: "6"
+    SWIFT_STRICT_CONCURRENCY: complete
+    DEVELOPMENT_TEAM: HK6R36PLNR
+    CODE_SIGN_STYLE: Automatic
+
+schemes:
+  Karikorero:
+    build:
+      targets:
+        Karikorero: all
+    run:
+      config: Debug
+      storeKitConfiguration: Karikorero/Karikorero.storekit
+
+targets:
+  Karikorero:
+    type: application
+    platform: iOS
+    sources:
+      - path: Karikorero
+        excludes:
+          - "Resources/Audio/*"
+          - "Resources/Data/*"
+          - "Resources/Fonts/*"
+          - "Resources/Assets.xcassets"
+      - path: Karikorero/Resources/Assets.xcassets
+        buildPhase: resources
+      - path: Karikorero/Resources/Data
+        buildPhase: resources
+        type: folder
+      - path: Karikorero/Resources/Audio
+        buildPhase: resources
+        type: folder
+      - path: Karikorero/Resources/Fonts
+        buildPhase: resources
+        type: folder
+    settings:
+      base:
+        INFOPLIST_FILE: Karikorero/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Karikorero/Karikorero.entitlements
+        PRODUCT_BUNDLE_IDENTIFIER: nz.ursa.karikorero
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: false
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    attributes:
+      SystemCapabilities:
+        com.apple.InAppPurchase:
+          enabled: 1
