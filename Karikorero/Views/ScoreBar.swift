@@ -21,7 +21,7 @@ struct ScoreBar: View {
             Button(action: onSettingsTap) {
                 Image(systemName: "gearshape")
                     .font(.body)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(Theme.accent)
             }
         }
         .padding(.horizontal)

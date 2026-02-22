@@ -42,8 +42,8 @@ final class SessionStats {
 
     func resetStats() {
         streak = 0
-        UserDefaults.standard.set(0, forKey: "bestStreak")
-        UserDefaults.standard.set(0, forKey: "totalCorrect")
-        UserDefaults.standard.set(0, forKey: "totalSeen")
+        bestStreak = 0
+        totalCorrect = 0
+        totalSeen = 0
     }
 }

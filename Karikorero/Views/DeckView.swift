@@ -46,6 +46,7 @@ struct DeckView: View {
 
                     // Two choices side by side
                     choiceButtons(prompt)
+                        .id(cardID)
                         .padding(.horizontal, 16)
                         .padding(.bottom, geo.safeAreaInsets.bottom > 0 ? 8 : 16)
                 } else {
